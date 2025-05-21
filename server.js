@@ -17,7 +17,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
-
+//dm
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
